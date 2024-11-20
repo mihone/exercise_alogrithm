@@ -1,4 +1,4 @@
-package com.exercise.algorithm.array;
+package com.exercise.algorithm.top150.array;
 
 import java.util.Arrays;
 
