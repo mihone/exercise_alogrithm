@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/point/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/point/MaxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/point/TwoSumSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/point/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/point/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/point/IsPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +174,7 @@
       <workItem from="1729912566022" duration="1497000" />
       <workItem from="1731974158918" duration="2610000" />
       <workItem from="1732060348567" duration="3730000" />
-      <workItem from="1732147193797" duration="18314000" />
+      <workItem from="1732147193797" duration="21135000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -259,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733184356030</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="24/12/3">
+      <option name="closed" value="true" />
+      <created>1733186012036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733186012036</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +292,8 @@
     <MESSAGE value="24/11/26" />
     <MESSAGE value="24/11/27" />
     <MESSAGE value="24/12/2" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/12/2" />
+    <MESSAGE value="24/12/3" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/12/3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
