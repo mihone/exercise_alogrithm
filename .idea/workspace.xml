@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/stack/IsValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/stack/SimplifyPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/zone/FindMinArrowShots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/zone/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/zone/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/zone/SummaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/map/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/stack/EvalRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/stack/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CanJump2.executor": "Run",
+    "Application.EvalRPN.executor": "Debug",
     "Application.LongestCommonPrefix.executor": "Debug",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxProfit.executor": "Run",
@@ -84,7 +82,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SimplifyPath">
+  <component name="RunManager" selected="Application.EvalRPN">
     <configuration name="CanJump2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.array.CanJump2" />
       <module name="exercise_alogrithm" />
@@ -98,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.array.LongestCommonPrefix" />
+    <configuration name="EvalRPN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.stack.EvalRPN" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.top150.array.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.top150.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.array.MaxProfit" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.array.LongestCommonPrefix" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvalRPN" />
         <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.ZConvert" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.CanJump2" />
-        <item itemvalue="Application.MaxProfit" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +179,7 @@
       <workItem from="1731974158918" duration="2610000" />
       <workItem from="1732060348567" duration="3730000" />
       <workItem from="1732147193797" duration="21838000" />
-      <workItem from="1733559987229" duration="14248000" />
+      <workItem from="1733559987229" duration="18852000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -287,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733748435293</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="24/12/9">
+      <option name="closed" value="true" />
+      <created>1733923496295</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733923496295</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +324,8 @@
     <MESSAGE value="24/12/3" />
     <MESSAGE value="24/12/4" />
     <MESSAGE value="24/12/7" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/12/7" />
+    <MESSAGE value="24/12/9" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/12/9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -347,6 +354,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/stack/SimplifyPath.java</url>
           <line>20</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/stack/EvalRPN.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
