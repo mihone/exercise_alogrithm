@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/12/22">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/base/base2/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/BuildTreeFront.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/BuildTreePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/Flatten.java" afterDir="false" />
+    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/HasPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/SumNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/base/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/base/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +181,7 @@
       <workItem from="1732060348567" duration="3730000" />
       <workItem from="1732147193797" duration="21838000" />
       <workItem from="1733559987229" duration="35436000" />
-      <workItem from="1734672141595" duration="22646000" />
+      <workItem from="1734672141595" duration="26522000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -331,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734963359490</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="24/12/29">
+      <option name="closed" value="true" />
+      <created>1735566275947</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735566275947</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +371,8 @@
     <MESSAGE value="24/12/15" />
     <MESSAGE value="24/12/20" />
     <MESSAGE value="24/12/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/12/22" />
+    <MESSAGE value="24/12/29" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/12/29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
