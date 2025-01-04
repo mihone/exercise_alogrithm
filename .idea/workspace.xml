@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/graph/NumIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/AverageOfLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/RightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/ZigzagLevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +28,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
+    &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
     &quot;assignee&quot;: &quot;mihone&quot;
+    }
+    }</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mihone/exercise_alogrithm.git",
+    "accountId": "ac37bb75-735d-4c7f-8501-e6475690d743"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "mihone",
+    "repository": "exercise_alogrithm"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mihone/exercise_alogrithm.git&quot;,
-    &quot;accountId&quot;: &quot;ac37bb75-735d-4c7f-8501-e6475690d743&quot;
-  }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
+    &quot;associatedIndex&quot;: 8
+    }</component>
   <component name="ProjectId" id="2nxQ2stlje5FWYYMhJQjMZIj5tk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,7 +78,7 @@
     "Application.ZConvert.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/dev",
+    "git-widget-placeholder": "#1 on feature/dev",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -82,7 +87,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -184,7 +189,7 @@
       <workItem from="1732060348567" duration="3730000" />
       <workItem from="1732147193797" duration="21838000" />
       <workItem from="1733559987229" duration="35436000" />
-      <workItem from="1734672141595" duration="33815000" />
+      <workItem from="1734672141595" duration="34279000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -354,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735648601055</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="24/01/04-1">
+      <option name="closed" value="true" />
+      <created>1735981192510</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1735981192510</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +406,8 @@
     <MESSAGE value="24/12/29" />
     <MESSAGE value="24/12/30" />
     <MESSAGE value="24/12/31" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/12/31" />
+    <MESSAGE value="24/01/04-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/01/04-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,5 +454,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
