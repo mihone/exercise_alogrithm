@@ -57,7 +57,7 @@ public class CalcEquation {
         for (Map.Entry<String, Double> entry : k1Map.entrySet()) {
             String string = entry.getKey();
             if (path.contains(string)) {
-                //防止死循环
+                //防止死循环，防止循环计算[["x1","x2"],["x2","x3"],["x3","x4"],["x4","x5"]]////["x5","x2"]
                 continue;
             }
             double value = entry.getValue();
