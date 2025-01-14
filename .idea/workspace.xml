@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/GenerateParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/LetterCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/Permute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/graph/FindOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/tree/KthSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/Exist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +68,7 @@
     "Application.AddBinary.executor": "Debug",
     "Application.CanJump2.executor": "Run",
     "Application.EvalRPN.executor": "Debug",
+    "Application.Exist.executor": "Debug",
     "Application.GenerateParenthesis.executor": "Debug",
     "Application.LongestCommonPrefix.executor": "Debug",
     "Application.MajorityElement.executor": "Run",
@@ -98,7 +97,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GenerateParenthesis">
+  <component name="RunManager" selected="Application.Exist">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.bit.AddBinary" />
       <module name="exercise_alogrithm" />
@@ -112,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvalRPN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.stack.EvalRPN" />
+    <configuration name="Exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.backtrack.Exist" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.top150.stack.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.top150.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exist" />
         <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.TrailingZeroes" />
         <item itemvalue="Application.RemoveNthFromEnd" />
-        <item itemvalue="Application.EvalRPN" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736561373010</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="24/01/11">
+      <option name="closed" value="true" />
+      <created>1736647344216</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736647344216</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/11/19" />
     <MESSAGE value="24/11/20" />
     <MESSAGE value="24/11/20" />
     <MESSAGE value="24/11/21" />
@@ -465,7 +471,8 @@
     <MESSAGE value="24/01/04-3" />
     <MESSAGE value="24/01/07" />
     <MESSAGE value="24/01/08" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/01/08" />
+    <MESSAGE value="24/01/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/01/11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,6 +526,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/GenerateParenthesis.java</url>
           <line>28</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/backtrack/Exist.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
