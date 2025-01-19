@@ -1,7 +1,7 @@
 package com.exercise.algorithm.top150.backtrack;
 
 /**
- * [ENHANCED]
+ * [ENHANCE]
  * 79. 单词搜索
  *
  * @author mihone
