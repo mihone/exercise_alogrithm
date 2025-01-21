@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/dp/MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/dp/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/dp/MinimumTotal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/dp/UniquePathsWithObstacles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -82,6 +83,7 @@
     "Application.Rotate.executor": "Run",
     "Application.SimplifyPath.executor": "Debug",
     "Application.TrailingZeroes.executor": "Debug",
+    "Application.UniquePathsWithObstacles.executor": "Debug",
     "Application.ZConvert.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -98,20 +100,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindMin">
-    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.bit.AddBinary" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.top150.bit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UniquePathsWithObstacles">
     <configuration name="Exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.backtrack.Exist" />
       <module name="exercise_alogrithm" />
@@ -164,6 +153,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniquePathsWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.dp.UniquePathsWithObstacles" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.top150.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -181,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePathsWithObstacles" />
         <item itemvalue="Application.FindMin" />
         <item itemvalue="Application.FindPeakElement" />
         <item itemvalue="Application.Exist" />
         <item itemvalue="Application.GenerateParenthesis" />
-        <item itemvalue="Application.AddBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737257552291</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="24/01/20">
+      <option name="closed" value="true" />
+      <created>1737381676139</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1737381676139</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/11/21" />
     <MESSAGE value="24/11/22" />
     <MESSAGE value="24/11/25" />
     <MESSAGE value="24/11/26" />
@@ -489,7 +498,8 @@
     <MESSAGE value="24/01/11" />
     <MESSAGE value="24/01/13" />
     <MESSAGE value="24/01/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/01/19" />
+    <MESSAGE value="24/01/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/01/20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -558,6 +568,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/binarysearch/FindMin.java</url>
           <line>17</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/top150/dp/UniquePathsWithObstacles.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
