@@ -39,4 +39,29 @@ public class CanCompleteCircuit {
         return -1;
     }
 
+    public int canCompleteCircuit222(int[] gas, int[] cost) {
+
+        int[] plus = new int[gas.length];
+        int sum = 0;
+        for (int i = 0; i < gas.length; i++) {
+            plus[i] = gas[i] - cost[i];
+            sum += plus[i];
+        }
+        if (sum < 0) {
+            return -1;
+        }
+        for (int i = 0; i < plus.length; i++) {
+            int cur = 0;
+            int index = i;
+            while ((index == i || index % plus.length != i) && cur >= 0) {
+                cur += plus[index%plus.length];
+                index++;
+            }
+            if (cur>=0) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
 }
