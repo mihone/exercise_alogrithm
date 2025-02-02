@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.divide;
 
-import com.exercise.algorithm.base.ListNode;
+import com.exercise.algorithm.base.list.ListNode;
 
 /**
  * [ENHANCE]

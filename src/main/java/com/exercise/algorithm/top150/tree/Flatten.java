@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.tree;
 
-import com.exercise.algorithm.base.TreeNode;
+import com.exercise.algorithm.base.tree.TreeNode;
 
 /**
  * 114. 二叉树展开为链表

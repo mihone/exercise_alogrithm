@@ -1,7 +1,7 @@
 package com.exercise.algorithm.top150.tree;
 
 
-import com.exercise.algorithm.base.TreeNode;
+import com.exercise.algorithm.base.tree.TreeNode;
 
 /**
  * 104. 二叉树的最大深度

@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.list;
 
-import com.exercise.algorithm.base.ListNode;
+import com.exercise.algorithm.base.list.ListNode;
 
 /**
 *  @author mihone

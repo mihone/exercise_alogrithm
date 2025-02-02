@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.list;
 
-import com.exercise.algorithm.base.Node;
+import com.exercise.algorithm.base.list.Node;
 
 import java.util.HashMap;
 import java.util.Map;

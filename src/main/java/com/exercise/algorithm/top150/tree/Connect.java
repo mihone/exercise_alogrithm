@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.tree;
 
-import com.exercise.algorithm.base.base2.Node;
+import com.exercise.algorithm.base.tree.Node;
 
 import java.util.LinkedList;
 

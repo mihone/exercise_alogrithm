@@ -1,4 +1,4 @@
-package com.exercise.algorithm.top150.divide.base;
+package com.exercise.algorithm.base.divide;
 
 
 // Definition for a QuadTree node.

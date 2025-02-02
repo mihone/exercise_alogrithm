@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.divide;
 
-import com.exercise.algorithm.top150.divide.base.Node;
+import com.exercise.algorithm.base.divide.Node;
 
 /**
  * 427. 建立四叉树

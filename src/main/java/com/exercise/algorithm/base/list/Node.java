@@ -1,4 +1,4 @@
-package com.exercise.algorithm.base;
+package com.exercise.algorithm.base.list;
 /**
 *  @author mihone
 *  @since 2024/12/15 10:24

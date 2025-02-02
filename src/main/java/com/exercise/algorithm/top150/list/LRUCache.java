@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.list;
 
-import com.exercise.algorithm.base.DLinkedNode;
+import com.exercise.algorithm.base.list.DLinkedNode;
 
 import java.util.HashMap;
 import java.util.Map;

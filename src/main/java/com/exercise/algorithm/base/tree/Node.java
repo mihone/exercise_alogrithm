@@ -1,6 +1,4 @@
-package com.exercise.algorithm.base.base2;
-
-import com.exercise.algorithm.base.TreeNode;
+package com.exercise.algorithm.base.tree;
 
 public class Node {
 

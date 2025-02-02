@@ -1,6 +1,6 @@
 package com.exercise.algorithm.top150.divide;
 
-import com.exercise.algorithm.base.TreeNode;
+import com.exercise.algorithm.base.tree.TreeNode;
 
 /**
  * 108. 将有序数组转换为二叉搜索树
