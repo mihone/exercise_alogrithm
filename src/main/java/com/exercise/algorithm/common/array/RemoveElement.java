@@ -1,4 +1,4 @@
-package com.exercise.algorithm.array;
+package com.exercise.algorithm.common.array;
 
 import java.util.Arrays;
 

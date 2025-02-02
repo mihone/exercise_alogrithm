@@ -1,6 +1,4 @@
-package com.exercise.algorithm.array;
-
-import jdk.nashorn.internal.ir.IfNode;
+package com.exercise.algorithm.common.array;
 
 import java.util.Arrays;
 
