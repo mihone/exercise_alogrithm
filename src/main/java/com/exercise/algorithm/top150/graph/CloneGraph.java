@@ -1,6 +1,7 @@
 package com.exercise.algorithm.top150.graph;
 
-import com.exercise.algorithm.top150.graph.base.Node;
+
+import com.exercise.algorithm.base.graph.Node;
 
 import java.util.ArrayList;
 import java.util.HashMap;
