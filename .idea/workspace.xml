@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/InvertTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/IsSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/IsValidBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/SortedArrayToBST.java" afterDir="false" />
+    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/02/04">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/CanFinish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/NumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/OrangesRotting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/Flatten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/KthSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/RightSideView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,22 +46,22 @@
     "assignee": "mihone"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mihone/exercise_alogrithm.git&quot;,
-    &quot;accountId&quot;: &quot;ac37bb75-735d-4c7f-8501-e6475690d743&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mihone/exercise_alogrithm.git",
+    "accountId": "454bb061-bb60-4362-9c66-40d61017f569"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;mihone&quot;,
-    &quot;repository&quot;: &quot;exercise_alogrithm&quot;
+    "owner": "mihone",
+    "repository": "exercise_alogrithm"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 8
     }</component>
@@ -81,6 +87,7 @@
     "Application.MajorityElement.executor": "Run",
     "Application.MaxProfit.executor": "Run",
     "Application.Merge.executor": "Run",
+    "Application.OrangesRotting.executor": "Debug",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
     "Application.RemoveElement.executor": "Run",
@@ -88,6 +95,7 @@
     "Application.Rotate.executor": "Run",
     "Application.SimplifyPath.executor": "Debug",
     "Application.SubarraySum.executor": "Debug",
+    "Application.Subsets.executor": "Run",
     "Application.TrailingZeroes.executor": "Debug",
     "Application.UniquePathsWithObstacles.executor": "Debug",
     "Application.ZConvert.executor": "Run",
@@ -102,7 +110,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,33 +119,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubarraySum">
-    <configuration name="FindMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.binarysearch.FindMin" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.top150.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.binarysearch.FindPeakElement" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.top150.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Subsets">
     <configuration name="IsInterleave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.dp.IsInterleave" />
       <module name="exercise_alogrithm" />
@@ -151,12 +133,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrangesRotting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.graph.OrangesRotting" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.substring.SubarraySum" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.exercise.algorithm.hot100.substring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.backtrack.Subsets" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.OrangesRotting" />
         <item itemvalue="Application.SubarraySum" />
         <item itemvalue="Application.IsInterleave" />
         <item itemvalue="Application.UniquePathsWithObstacles" />
-        <item itemvalue="Application.FindMin" />
-        <item itemvalue="Application.FindPeakElement" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +218,7 @@
       <workItem from="1732147193797" duration="21838000" />
       <workItem from="1733559987229" duration="35436000" />
       <workItem from="1734672141595" duration="34279000" />
-      <workItem from="1738466412517" duration="32846000" />
+      <workItem from="1738466412517" duration="51554000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -500,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738638070943</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="24/02/04">
+      <option name="closed" value="true" />
+      <created>1738857034713</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1738857034713</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/12/3" />
     <MESSAGE value="24/12/4" />
     <MESSAGE value="24/12/7" />
     <MESSAGE value="24/12/9" />
@@ -544,7 +559,8 @@
     <MESSAGE value="24/01/25" />
     <MESSAGE value="包调整-2" />
     <MESSAGE value="24/02/03" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/02/03" />
+    <MESSAGE value="24/02/04" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/02/04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,6 +644,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/substring/SubarraySum.java</url>
           <line>18</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/OrangesRotting.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
