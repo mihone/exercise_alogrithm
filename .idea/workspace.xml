@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/02/04">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/LetterCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/Permute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/CanFinish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/NumIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/OrangesRotting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/graph/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/Flatten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/KthSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/tree/RightSideView.java" afterDir="false" />
+    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/GenerateParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,28 +29,28 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mihone"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mihone&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mihone/exercise_alogrithm.git",
-    "accountId": "454bb061-bb60-4362-9c66-40d61017f569"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mihone/exercise_alogrithm.git&quot;,
+    &quot;accountId&quot;: &quot;454bb061-bb60-4362-9c66-40d61017f569&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "mihone",
-    "repository": "exercise_alogrithm"
+    &quot;owner&quot;: &quot;mihone&quot;,
+    &quot;repository&quot;: &quot;exercise_alogrithm&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 8
     }</component>
@@ -73,47 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddBinary.executor": "Debug",
-    "Application.CanJump2.executor": "Run",
-    "Application.EvalRPN.executor": "Debug",
-    "Application.Exist.executor": "Debug",
-    "Application.FindMin.executor": "Debug",
-    "Application.FindPeakElement.executor": "Debug",
-    "Application.GenerateParenthesis.executor": "Debug",
-    "Application.IsInterleave.executor": "Debug",
-    "Application.LongestCommonPrefix.executor": "Debug",
-    "Application.MajorityElement.executor": "Run",
-    "Application.MaxProfit.executor": "Run",
-    "Application.Merge.executor": "Run",
-    "Application.OrangesRotting.executor": "Debug",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.RemoveDuplicates2.executor": "Run",
-    "Application.RemoveElement.executor": "Run",
-    "Application.RemoveNthFromEnd.executor": "Debug",
-    "Application.Rotate.executor": "Run",
-    "Application.SimplifyPath.executor": "Debug",
-    "Application.SubarraySum.executor": "Debug",
-    "Application.Subsets.executor": "Run",
-    "Application.TrailingZeroes.executor": "Debug",
-    "Application.UniquePathsWithObstacles.executor": "Debug",
-    "Application.ZConvert.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddBinary.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CanJump2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvalRPN.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Exist.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindMin.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindPeakElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GenerateParenthesis.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IsInterleave.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxProfit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Merge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrangesRotting.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNthFromEnd.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Rotate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplifyPath.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SubarraySum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrailingZeroes.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UniquePathsWithObstacles.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ZConvert.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercise/algorithm/top150&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.exercise.algorithm.base.graph" />
@@ -218,7 +208,8 @@
       <workItem from="1732147193797" duration="21838000" />
       <workItem from="1733559987229" duration="35436000" />
       <workItem from="1734672141595" duration="34279000" />
-      <workItem from="1738466412517" duration="51554000" />
+      <workItem from="1738466412517" duration="64603000" />
+      <workItem from="1741003831952" duration="1565000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -516,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738857034713</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="24/02/09">
+      <option name="closed" value="true" />
+      <created>1739093359526</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1739093359526</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/12/4" />
     <MESSAGE value="24/12/7" />
     <MESSAGE value="24/12/9" />
     <MESSAGE value="24/12/11" />
@@ -560,7 +558,8 @@
     <MESSAGE value="包调整-2" />
     <MESSAGE value="24/02/03" />
     <MESSAGE value="24/02/04" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/02/04" />
+    <MESSAGE value="24/02/09" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/02/09" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
