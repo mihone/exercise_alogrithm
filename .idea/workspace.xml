@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/SearchInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/SearchMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/SearchRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +210,7 @@
       <workItem from="1733559987229" duration="35436000" />
       <workItem from="1734672141595" duration="34279000" />
       <workItem from="1738466412517" duration="64603000" />
-      <workItem from="1741003831952" duration="6069000" />
+      <workItem from="1741003831952" duration="8663000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -532,7 +532,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741094744975</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="24/03/05">
+      <option name="closed" value="true" />
+      <created>1741183243013</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1741183243013</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +559,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/12/11" />
     <MESSAGE value="24/12/15" />
     <MESSAGE value="24/12/20" />
     <MESSAGE value="24/12/22" />
@@ -576,7 +583,8 @@
     <MESSAGE value="24/02/09" />
     <MESSAGE value="24/03/03" />
     <MESSAGE value="24/03/04" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/04" />
+    <MESSAGE value="24/03/05" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/03/05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
