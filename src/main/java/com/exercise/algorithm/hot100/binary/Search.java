@@ -10,28 +10,29 @@ public class Search {
 
     }
     public int search(int[] nums, int target) {
-        int left = 0, right = nums.length - 1;
+
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        int left = 0;
+        int right = nums.length - 1;
         while (left <= right) {
             int mid = (right + left) / 2;
             if (nums[mid] == target) {
                 return mid;
             }
-            if (nums[mid] < target) {
-                if (nums[right] == target) {
-                    return right;
-                }
-                if (nums[right]>target) {
+            if (nums[mid] < nums[right]) {
+                if (nums[right] >= target && nums[mid] < target) {
                     left = mid + 1;
-                }else {
+
+                } else {
                     right = mid - 1;
                 }
-            }else {
-                if (nums[left] == target) {
-                    return left;
-                }
-                if (nums[left]<target) {
+            } else {
+                if (nums[left] <= target && nums[mid] > target) {
                     right = mid - 1;
-                }else {
+                }
+                else {
                     left = mid + 1;
                 }
             }

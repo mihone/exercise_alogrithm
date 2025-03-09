@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/SearchRange.java" afterDir="false" />
+    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/03/06">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/dp/ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/dp/Generate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/greedy/CanJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/greedy/Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/greedy/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/heap/FindKthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/heap/TopKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/stack/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/stack/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/stack/IsValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/stack/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/binary/Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +77,7 @@
   "keyToString": {
     "Application.AddBinary.executor": "Debug",
     "Application.CanJump2.executor": "Run",
+    "Application.DecodeString.executor": "Debug",
     "Application.EvalRPN.executor": "Debug",
     "Application.Exist.executor": "Debug",
     "Application.FindMin.executor": "Debug",
@@ -110,13 +122,13 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Partition">
-    <configuration name="IsInterleave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.top150.dp.IsInterleave" />
+  <component name="RunManager" selected="Application.DecodeString">
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.stack.DecodeString" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.top150.dp.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.Partition" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.OrangesRotting" />
         <item itemvalue="Application.SubarraySum" />
-        <item itemvalue="Application.IsInterleave" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +222,7 @@
       <workItem from="1733559987229" duration="35436000" />
       <workItem from="1734672141595" duration="34279000" />
       <workItem from="1738466412517" duration="64603000" />
-      <workItem from="1741003831952" duration="8663000" />
+      <workItem from="1741003831952" duration="19934000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -540,7 +552,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741183243013</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="24/03/06">
+      <option name="closed" value="true" />
+      <created>1741269370079</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1741269370079</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/12/15" />
     <MESSAGE value="24/12/20" />
     <MESSAGE value="24/12/22" />
     <MESSAGE value="24/12/29" />
@@ -584,7 +603,8 @@
     <MESSAGE value="24/03/03" />
     <MESSAGE value="24/03/04" />
     <MESSAGE value="24/03/05" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/05" />
+    <MESSAGE value="24/03/06" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/03/06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,6 +698,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/backtrack/Partition.java</url>
           <line>28</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/stack/DecodeString.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
