@@ -15,6 +15,7 @@ public class LengthOfLIS {
         if (nums.length == 0) {
             return 0;
         }
+        //以第 i 个数字结尾的最长上升子序列 的长度
         int[] dp = new int[nums.length];
         dp[0] = 1;
         int maxans = 1;
@@ -44,7 +45,7 @@ public class LengthOfLIS {
             if (nums[i] > d[len]) {
                 d[++len] = nums[i];
             } else {
-                //找到第一个比nums[i] 大的数=====二分法找插入位置
+                //找到第一个比nums[i] 大的数，替换它=====二分法找插入位置
                 int l = 1, r = len; // 如果找不到说明所有的数都比 nums[i] 大，此时要更新 d[1]，所以这里将 pos 设为 0
                 while (l <= r) {
                     int mid = (l + r) /2;
