@@ -40,6 +40,7 @@ public class LengthOfLIS {
             return 0;
         }
         int[] d = new int[n + 1];
+        //它的每一项 d[i] 的含义是，所有长度为 i+1 的上升子序列的末尾元素中的最小值
         d[len] = nums[0];
         for (int i = 1; i < n; ++i) {
             if (nums[i] > d[len]) {
