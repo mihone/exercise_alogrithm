@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/dp/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/dp/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/dp/MinDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/dp/MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/dp/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/SortColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +70,7 @@
     "Application.DecodeString.executor": "Debug",
     "Application.EvalRPN.executor": "Debug",
     "Application.Exist.executor": "Debug",
+    "Application.FindDuplicate.executor": "Debug",
     "Application.FindMin.executor": "Debug",
     "Application.FindPeakElement.executor": "Debug",
     "Application.GenerateParenthesis.executor": "Debug",
@@ -117,7 +114,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxProduct">
+  <component name="RunManager" selected="Application.FindDuplicate">
     <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.stack.DecodeString" />
       <module name="exercise_alogrithm" />
@@ -131,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.dp.MaxProduct" />
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.trick.FindDuplicate" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.dp.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.trick.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrangesRotting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.graph.OrangesRotting" />
+    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.dp.MaxProduct" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.graph.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.MaxProduct" />
         <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.Partition" />
         <item itemvalue="Application.Subsets" />
-        <item itemvalue="Application.OrangesRotting" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +214,7 @@
       <workItem from="1733559987229" duration="35436000" />
       <workItem from="1734672141595" duration="34279000" />
       <workItem from="1738466412517" duration="64603000" />
-      <workItem from="1741003831952" duration="37802000" />
+      <workItem from="1741003831952" duration="43120000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -603,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741869906213</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="24/03/14-24/03/15">
+      <option name="closed" value="true" />
+      <created>1742009673992</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1742009673992</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +627,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/01/04-1" />
     <MESSAGE value="24/01/04-2" />
     <MESSAGE value="24/01/04-3" />
     <MESSAGE value="24/01/07" />
@@ -647,7 +651,8 @@
     <MESSAGE value="24/03/11" />
     <MESSAGE value="24/03/12" />
     <MESSAGE value="24/03/13" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/13" />
+    <MESSAGE value="24/03/14-24/03/15" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/03/14-24/03/15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,6 +751,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/stack/DecodeString.java</url>
           <line>18</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/FindDuplicate.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/FindDuplicate.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
