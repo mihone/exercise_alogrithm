@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/dash2024/matrix/GameOfLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/dash2024/matrix/SpiralOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +87,7 @@
     "Application.RemoveNthFromEnd.executor": "Debug",
     "Application.Rotate.executor": "Run",
     "Application.SimplifyPath.executor": "Debug",
+    "Application.SpiralOrder.executor": "Debug",
     "Application.SubarraySum.executor": "Debug",
     "Application.Subsets.executor": "Run",
     "Application.TrailingZeroes.executor": "Debug",
@@ -114,7 +114,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicate">
+  <component name="RunManager" selected="Application.SpiralOrder">
     <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.stack.DecodeString" />
       <module name="exercise_alogrithm" />
@@ -167,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.backtrack.Subsets" />
+    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.dash2024.matrix.SpiralOrder" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.backtrack.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.dash2024.matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.MaxProduct" />
         <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.Partition" />
-        <item itemvalue="Application.Subsets" />
       </list>
     </recent_temporary>
   </component>
@@ -214,15 +214,7 @@
       <workItem from="1733559987229" duration="35436000" />
       <workItem from="1734672141595" duration="34279000" />
       <workItem from="1738466412517" duration="64603000" />
-      <workItem from="1741003831952" duration="43120000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1729922741608</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1729922741608</updated>
+      <workItem from="1741003831952" duration="46393000" />
     </task>
     <task id="LOCAL-00002" summary="initial commit">
       <option name="closed" value="true" />
@@ -608,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742009673992</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="24/03/16">
+      <option name="closed" value="true" />
+      <created>1742133566900</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1742133566900</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +627,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/01/04-2" />
     <MESSAGE value="24/01/04-3" />
     <MESSAGE value="24/01/07" />
     <MESSAGE value="24/01/08" />
@@ -652,7 +651,8 @@
     <MESSAGE value="24/03/12" />
     <MESSAGE value="24/03/13" />
     <MESSAGE value="24/03/14-24/03/15" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/14-24/03/15" />
+    <MESSAGE value="24/03/16" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/03/16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -761,6 +761,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/trick/FindDuplicate.java</url>
           <line>21</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/dash2024/matrix/SpiralOrder.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
