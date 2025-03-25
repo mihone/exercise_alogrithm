@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/dash2024/matrix/GameOfLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/dash2024/matrix/SpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +74,7 @@
     "Application.FindPeakElement.executor": "Debug",
     "Application.GenerateParenthesis.executor": "Debug",
     "Application.IsInterleave.executor": "Debug",
+    "Application.LCR001.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Debug",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxProduct.executor": "Run",
@@ -114,7 +115,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpiralOrder">
+  <component name="RunManager" selected="Application.LCR001">
     <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.stack.DecodeString" />
       <module name="exercise_alogrithm" />
@@ -141,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.dp.MaxProduct" />
+    <configuration name="LCR001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR001" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.dp.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.backtrack.Partition" />
+    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.dp.MaxProduct" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.backtrack.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCR001" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.MaxProduct" />
         <item itemvalue="Application.DecodeString" />
-        <item itemvalue="Application.Partition" />
       </list>
     </recent_temporary>
   </component>
@@ -214,15 +215,8 @@
       <workItem from="1733559987229" duration="35436000" />
       <workItem from="1734672141595" duration="34279000" />
       <workItem from="1738466412517" duration="64603000" />
-      <workItem from="1741003831952" duration="46393000" />
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1732060483122</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1732060483122</updated>
+      <workItem from="1741003831952" duration="47136000" />
+      <workItem from="1742820234296" duration="4195000" />
     </task>
     <task id="LOCAL-00003" summary="24/11/19">
       <option name="closed" value="true" />
@@ -608,7 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742133566900</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="24/03/17">
+      <option name="closed" value="true" />
+      <created>1742220054060</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1742220054061</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/01/04-3" />
     <MESSAGE value="24/01/07" />
     <MESSAGE value="24/01/08" />
     <MESSAGE value="24/01/11" />
@@ -652,7 +653,8 @@
     <MESSAGE value="24/03/13" />
     <MESSAGE value="24/03/14-24/03/15" />
     <MESSAGE value="24/03/16" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/16" />
+    <MESSAGE value="24/03/17" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/03/17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,6 +768,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/dash2024/matrix/SpiralOrder.java</url>
           <line>14</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR001.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
