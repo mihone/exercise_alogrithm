@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,7 @@
     "Application.GenerateParenthesis.executor": "Debug",
     "Application.IsInterleave.executor": "Debug",
     "Application.LCR001.executor": "Run",
+    "Application.LCR002.executor": "Debug",
     "Application.LongestCommonPrefix.executor": "Debug",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxProduct.executor": "Run",
@@ -115,20 +117,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LCR001">
-    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.stack.DecodeString" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LCR002">
     <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.trick.FindDuplicate" />
       <module name="exercise_alogrithm" />
@@ -144,6 +133,19 @@
     </configuration>
     <configuration name="LCR001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR001" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LCR002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR002" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
@@ -183,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCR002" />
         <item itemvalue="Application.LCR001" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.MaxProduct" />
-        <item itemvalue="Application.DecodeString" />
       </list>
     </recent_temporary>
   </component>
@@ -216,15 +218,7 @@
       <workItem from="1734672141595" duration="34279000" />
       <workItem from="1738466412517" duration="64603000" />
       <workItem from="1741003831952" duration="47136000" />
-      <workItem from="1742820234296" duration="4195000" />
-    </task>
-    <task id="LOCAL-00003" summary="24/11/19">
-      <option name="closed" value="true" />
-      <created>1732063269960</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1732063269960</updated>
+      <workItem from="1742820234296" duration="8294000" />
     </task>
     <task id="LOCAL-00004" summary="24/11/20">
       <option name="closed" value="true" />
@@ -610,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742220054061</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="24/03/25">
+      <option name="closed" value="true" />
+      <created>1742909281159</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1742909281159</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +631,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/01/07" />
     <MESSAGE value="24/01/08" />
     <MESSAGE value="24/01/11" />
     <MESSAGE value="24/01/13" />
@@ -654,7 +655,8 @@
     <MESSAGE value="24/03/14-24/03/15" />
     <MESSAGE value="24/03/16" />
     <MESSAGE value="24/03/17" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/17" />
+    <MESSAGE value="24/03/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/03/25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,6 +775,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR001.java</url>
           <line>25</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR002.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR002.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
