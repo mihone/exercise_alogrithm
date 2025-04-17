@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR009.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR011.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,61 +65,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AddBinary.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CanJump2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecodeString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EvalRPN.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Exist.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindDuplicate.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindMin.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindPeakElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GenerateParenthesis.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.IsInterleave.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LCR001.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LCR002.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxProduct.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxProfit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Merge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrangesRotting.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Partition.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicates2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveNthFromEnd.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Rotate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimplifyPath.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SpiralOrder.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SubarraySum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrailingZeroes.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.UniquePathsWithObstacles.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ZConvert.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercise/algorithm/top150&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddBinary.executor": "Debug",
+    "Application.CanJump2.executor": "Run",
+    "Application.DecodeString.executor": "Debug",
+    "Application.EvalRPN.executor": "Debug",
+    "Application.Exist.executor": "Debug",
+    "Application.FindDuplicate.executor": "Debug",
+    "Application.FindMin.executor": "Debug",
+    "Application.FindPeakElement.executor": "Debug",
+    "Application.GenerateParenthesis.executor": "Debug",
+    "Application.IsInterleave.executor": "Debug",
+    "Application.LCR001.executor": "Run",
+    "Application.LCR002.executor": "Debug",
+    "Application.LCR011.executor": "Debug",
+    "Application.LongestCommonPrefix.executor": "Debug",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MaxProduct.executor": "Run",
+    "Application.MaxProfit.executor": "Run",
+    "Application.Merge.executor": "Run",
+    "Application.OrangesRotting.executor": "Debug",
+    "Application.Partition.executor": "Debug",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.RemoveDuplicates2.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
+    "Application.RemoveNthFromEnd.executor": "Debug",
+    "Application.Rotate.executor": "Run",
+    "Application.SimplifyPath.executor": "Debug",
+    "Application.SpiralOrder.executor": "Debug",
+    "Application.SubarraySum.executor": "Debug",
+    "Application.Subsets.executor": "Run",
+    "Application.TrailingZeroes.executor": "Debug",
+    "Application.UniquePathsWithObstacles.executor": "Debug",
+    "Application.ZConvert.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercise/algorithm/top150",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LCR002">
+  <component name="RunManager" selected="Application.LCR011">
     <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.trick.FindDuplicate" />
       <module name="exercise_alogrithm" />
@@ -156,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.dp.MaxProduct" />
+    <configuration name="LCR011" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR011" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.dp.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCR011" />
         <item itemvalue="Application.LCR002" />
         <item itemvalue="Application.LCR001" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.MaxProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -218,15 +222,7 @@
       <workItem from="1738466412517" duration="64603000" />
       <workItem from="1741003831952" duration="47136000" />
       <workItem from="1742820234296" duration="8294000" />
-      <workItem from="1743422713467" duration="2678000" />
-    </task>
-    <task id="LOCAL-00004" summary="24/11/20">
-      <option name="closed" value="true" />
-      <created>1732063338089</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1732063338089</updated>
+      <workItem from="1743422713467" duration="20421000" />
     </task>
     <task id="LOCAL-00005" summary="24/11/21">
       <option name="closed" value="true" />
@@ -612,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742909281159</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="24/03/31">
+      <option name="closed" value="true" />
+      <created>1743425547351</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1743425547351</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +635,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/01/08" />
     <MESSAGE value="24/01/11" />
     <MESSAGE value="24/01/13" />
     <MESSAGE value="24/01/19" />
@@ -656,7 +659,8 @@
     <MESSAGE value="24/03/16" />
     <MESSAGE value="24/03/17" />
     <MESSAGE value="24/03/25" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/25" />
+    <MESSAGE value="24/03/31" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/03/31" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -785,6 +789,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR002.java</url>
           <line>11</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR011.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
