@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR009.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR010.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR013.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR016.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR018.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR019.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR010.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +83,7 @@
     "Application.LCR001.executor": "Run",
     "Application.LCR002.executor": "Debug",
     "Application.LCR011.executor": "Debug",
+    "Application.LCR018.executor": "Debug",
     "Application.LongestCommonPrefix.executor": "Debug",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxProduct.executor": "Run",
@@ -120,20 +124,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LCR011">
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.trick.FindDuplicate" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.trick.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LCR019">
     <configuration name="LCR001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR001" />
       <module name="exercise_alogrithm" />
@@ -173,12 +164,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.dash2024.matrix.SpiralOrder" />
+    <configuration name="LCR018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR018" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.dash2024.matrix.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LCR019" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR019" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCR019" />
+        <item itemvalue="Application.LCR018" />
         <item itemvalue="Application.LCR011" />
         <item itemvalue="Application.LCR002" />
         <item itemvalue="Application.LCR001" />
-        <item itemvalue="Application.SpiralOrder" />
-        <item itemvalue="Application.FindDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -222,15 +226,8 @@
       <workItem from="1738466412517" duration="64603000" />
       <workItem from="1741003831952" duration="47136000" />
       <workItem from="1742820234296" duration="8294000" />
-      <workItem from="1743422713467" duration="20421000" />
-    </task>
-    <task id="LOCAL-00005" summary="24/11/21">
-      <option name="closed" value="true" />
-      <created>1732149377714</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1732149377714</updated>
+      <workItem from="1743422713467" duration="25760000" />
+      <workItem from="1746066355998" duration="10656000" />
     </task>
     <task id="LOCAL-00006" summary="24/11/22">
       <option name="closed" value="true" />
@@ -616,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743425547351</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="24/04/17">
+      <option name="closed" value="true" />
+      <created>1744908269508</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1744908269508</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +640,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/01/11" />
     <MESSAGE value="24/01/13" />
     <MESSAGE value="24/01/19" />
     <MESSAGE value="24/01/20" />
@@ -660,7 +664,8 @@
     <MESSAGE value="24/03/17" />
     <MESSAGE value="24/03/25" />
     <MESSAGE value="24/03/31" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/03/31" />
+    <MESSAGE value="24/04/17" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/04/17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,6 +799,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR011.java</url>
           <line>22</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR018.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR018.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

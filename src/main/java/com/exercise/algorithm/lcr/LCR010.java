@@ -18,7 +18,7 @@ public class LCR010 {
     public int subarraySum(int[] nums, int k) {
         int count = 0, pre = 0;
         HashMap < Integer, Integer > mp = new HashMap< >();
-        //代表数组本身是一种情况
+        //代表数组本身是一种情况,前缀和本身就满足条件。
         mp.put(0, 1);
         for (int i = 0; i < nums.length; i++) {
             pre += nums[i];
