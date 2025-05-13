@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/base/lcr/list/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR028.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR029.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR030.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR032.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR033.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR035.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR036.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR037.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,15 +227,7 @@
       <workItem from="1741003831952" duration="47136000" />
       <workItem from="1742820234296" duration="8294000" />
       <workItem from="1743422713467" duration="25760000" />
-      <workItem from="1746066355998" duration="23242000" />
-    </task>
-    <task id="LOCAL-00009" summary="24/11/27">
-      <option name="closed" value="true" />
-      <created>1732839985962</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1732839985962</updated>
+      <workItem from="1746066355998" duration="27912000" />
     </task>
     <task id="LOCAL-00010" summary="24/12/2">
       <option name="closed" value="true" />
@@ -618,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746713609772</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="24/05/12">
+      <option name="closed" value="true" />
+      <created>1747139734458</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1747139734458</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +640,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="24/01/21" />
     <MESSAGE value="包调整" />
     <MESSAGE value="24/01/25" />
     <MESSAGE value="包调整-2" />
@@ -662,7 +664,8 @@
     <MESSAGE value="24/05/06" />
     <MESSAGE value="24/05/07" />
     <MESSAGE value="24/05/08" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/05/08" />
+    <MESSAGE value="24/05/12" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/05/12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
