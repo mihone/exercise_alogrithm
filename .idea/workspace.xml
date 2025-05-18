@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR030.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR032.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR033.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR035.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR036.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR037.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR038.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR041.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR042.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR043.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR044.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR046.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR049.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR052.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR053.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR054.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR055.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR037.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR037.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +92,7 @@
     "Application.LCR018.executor": "Debug",
     "Application.LCR019.executor": "Debug",
     "Application.LCR029.executor": "Debug",
+    "Application.LCR053.executor": "Debug",
     "Application.LongestCommonPrefix.executor": "Debug",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxProduct.executor": "Run",
@@ -124,20 +133,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LCR029">
-    <configuration name="LCR002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR002" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LCR053">
     <configuration name="LCR011" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR011" />
       <module name="exercise_alogrithm" />
@@ -190,13 +186,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LCR053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR053" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCR053" />
         <item itemvalue="Application.LCR029" />
         <item itemvalue="Application.LCR019" />
         <item itemvalue="Application.LCR018" />
         <item itemvalue="Application.LCR011" />
-        <item itemvalue="Application.LCR002" />
       </list>
     </recent_temporary>
   </component>
@@ -227,15 +236,7 @@
       <workItem from="1741003831952" duration="47136000" />
       <workItem from="1742820234296" duration="8294000" />
       <workItem from="1743422713467" duration="25760000" />
-      <workItem from="1746066355998" duration="27912000" />
-    </task>
-    <task id="LOCAL-00010" summary="24/12/2">
-      <option name="closed" value="true" />
-      <created>1733184356030</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1733184356030</updated>
+      <workItem from="1746066355998" duration="42516000" />
     </task>
     <task id="LOCAL-00011" summary="24/12/3">
       <option name="closed" value="true" />
@@ -621,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747139734458</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="24/05/13">
+      <option name="closed" value="true" />
+      <created>1747154839923</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1747154839923</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +649,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="包调整" />
     <MESSAGE value="24/01/25" />
     <MESSAGE value="包调整-2" />
     <MESSAGE value="24/02/03" />
@@ -665,7 +673,8 @@
     <MESSAGE value="24/05/07" />
     <MESSAGE value="24/05/08" />
     <MESSAGE value="24/05/12" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/05/12" />
+    <MESSAGE value="24/05/13" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/05/13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,6 +823,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR029.java</url>
           <line>18</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR053.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR053.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
