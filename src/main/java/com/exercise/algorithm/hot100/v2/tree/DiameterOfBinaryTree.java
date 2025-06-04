@@ -15,6 +15,7 @@ public class DiameterOfBinaryTree {
             return 0;
         }
         internal(root);
+        //求边，需要减1
         return ans - 1;
     }
 

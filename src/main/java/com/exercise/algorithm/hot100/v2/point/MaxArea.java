@@ -1,6 +1,6 @@
 package com.exercise.algorithm.hot100.v2.point;
 /**
-*  @author xinyux
+*  @author mihone
 *  @since 2025/5/28 15:47
 */
 public class MaxArea {
