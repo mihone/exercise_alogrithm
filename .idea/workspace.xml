@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/05/18-(14)">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/FindMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/IsValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +74,7 @@
     "Application.EvalRPN.executor": "Debug",
     "Application.Exist.executor": "Debug",
     "Application.FindDuplicate.executor": "Debug",
+    "Application.FindKthLargest.executor": "Debug",
     "Application.FindMin.executor": "Debug",
     "Application.FindPeakElement.executor": "Debug",
     "Application.GenerateParenthesis.executor": "Debug",
@@ -88,6 +94,7 @@
     "Application.OrangesRotting.executor": "Debug",
     "Application.Partition.executor": "Debug",
     "Application.PathSum.executor": "Debug",
+    "Application.QuickSort.executor": "Debug",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
     "Application.RemoveElement.executor": "Run",
@@ -123,7 +130,7 @@
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Search">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.backtrack.Exist" />
       <module name="exercise_alogrithm" />
@@ -137,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCR053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR053" />
+    <configuration name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.heap.FindKthLargest" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.v2.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.tree.PathSum" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.common.array.QuickSort" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.v2.tree.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.common.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.FindKthLargest" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.Exist" />
         <item itemvalue="Application.Trie" />
-        <item itemvalue="Application.PathSum" />
-        <item itemvalue="Application.LCR053" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +235,7 @@
       <workItem from="1743422713467" duration="25760000" />
       <workItem from="1746066355998" duration="48137000" />
       <workItem from="1748502181936" duration="642000" />
-      <workItem from="1748508692392" duration="50350000" />
+      <workItem from="1748508692392" duration="66906000" />
     </task>
     <task id="LOCAL-00012" summary="24/12/4">
       <option name="closed" value="true" />
@@ -855,6 +862,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/Search.java</url>
           <line>16</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
