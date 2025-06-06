@@ -25,6 +25,8 @@ public class FindMin {
 
     }
 
+// 为什么要跟右边比？Eileen可以无限逼近最小值。
+    //为什么循环条件没有等于，因为循环内部不需要处理等于的场景。
     //求最小值
     public int findMin2(int[] nums) {
         int left = 0;

@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Exist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/GenerateParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/LetterCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Partition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Permute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/FindMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/SearchInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/SearchMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/05/18-(14)">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/FindMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +228,7 @@
       <workItem from="1743422713467" duration="25760000" />
       <workItem from="1746066355998" duration="48137000" />
       <workItem from="1748502181936" duration="642000" />
-      <workItem from="1748508692392" duration="45306000" />
+      <workItem from="1748508692392" duration="50350000" />
     </task>
     <task id="LOCAL-00012" summary="24/12/4">
       <option name="closed" value="true" />

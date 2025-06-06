@@ -28,7 +28,7 @@ public class Search {
             }
             if (nums[mid] >= nums[left]) {
                 if (nums[mid] < target) {
-                    left = left + 1;
+                    left = mid + 1;
                 } else {
                     if (target >= nums[left]) {
                         right = mid - 1;
