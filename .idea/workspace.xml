@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/05/18-(14)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/IsValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/stack/MinStack.java" afterDir="false" />
+    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Exist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/backtrack/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/SearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/binarysearch/SearchMatrix.java" afterDir="false" />
+    <list default="true" id="d63df4f0-038b-404c-9da3-0250c28cdff7" name="Changes" comment="24/05/19-(3)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR059.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR060.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR061.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR062.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR063.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR064.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +86,6 @@
     "Application.EvalRPN.executor": "Debug",
     "Application.Exist.executor": "Debug",
     "Application.FindDuplicate.executor": "Debug",
-    "Application.FindKthLargest.executor": "Debug",
     "Application.FindMin.executor": "Debug",
     "Application.FindPeakElement.executor": "Debug",
     "Application.GenerateParenthesis.executor": "Debug",
@@ -94,7 +105,6 @@
     "Application.OrangesRotting.executor": "Debug",
     "Application.Partition.executor": "Debug",
     "Application.PathSum.executor": "Debug",
-    "Application.QuickSort.executor": "Debug",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
     "Application.RemoveElement.executor": "Run",
@@ -123,16 +133,72 @@
     "onboarding.tips.debug.path": "E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddBinary.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CanJump2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecodeString.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EvalRPN.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Exist.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindDuplicate.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindMin.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindPeakElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GenerateParenthesis.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IsInterleave.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR001.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LCR002.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR011.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR018.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR019.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR029.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR053.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR059.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxProfit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Merge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrangesRotting.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Partition.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNthFromEnd.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Rotate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplifyPath.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SpiralOrder.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SubarraySum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrailingZeroes.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UniquePathsWithObstacles.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ZConvert.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercise/algorithm/top150&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/IDEA/projects/exercise_alogrithm/src/main/java/com/exercide/algorithm/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.exercise.algorithm.base.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.Search">
     <configuration name="Exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.backtrack.Exist" />
+  <component name="RunManager" selected="Application.LCR059">
+    <configuration name="LCR018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR018" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
@@ -144,12 +210,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.heap.FindKthLargest" />
+    <configuration name="LCR053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR053" />
+    <configuration name="LCR019" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR019" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.v2.heap.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +225,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.common.array.QuickSort" />
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.tree.PathSum" />
+    <configuration name="LCR029" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR029" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.common.array.*" />
+          <option name="PATTERN" value="com.exercise.algorithm.hot100.v2.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,6 +242,8 @@
     </configuration>
     <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.binarysearch.Search" />
+    <configuration name="LCR053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR053" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
@@ -185,6 +257,8 @@
     </configuration>
     <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.graph.Trie" />
+    <configuration name="LCR059" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR059" />
       <module name="exercise_alogrithm" />
       <extension name="coverage">
         <pattern>
@@ -198,11 +272,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.FindKthLargest" />
+        <item itemvalue="Application.LCR059" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.Exist" />
         <item itemvalue="Application.Trie" />
+        <item itemvalue="Application.PathSum" />
+        <item itemvalue="Application.LCR053" />
+        <item itemvalue="Application.LCR029" />
+        <item itemvalue="Application.LCR019" />
+        <item itemvalue="Application.LCR018" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +313,7 @@
       <workItem from="1743422713467" duration="25760000" />
       <workItem from="1746066355998" duration="48137000" />
       <workItem from="1748502181936" duration="642000" />
-      <workItem from="1748508692392" duration="66906000" />
+      <workItem from="1748508692392" duration="45306000" />
     </task>
     <task id="LOCAL-00012" summary="24/12/4">
       <option name="closed" value="true" />
@@ -244,6 +322,8 @@
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
       <updated>1733272608899</updated>
+      <workItem from="1746066355998" duration="56087000" />
+      <workItem from="1747913588874" duration="6130000" />
     </task>
     <task id="LOCAL-00013" summary="24/12/7">
       <option name="closed" value="true" />
@@ -629,7 +709,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747564413144</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="24/05/19-(3)">
+      <option name="closed" value="true" />
+      <created>1747666984267</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1747666984267</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +736,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="包调整-2" />
     <MESSAGE value="24/02/03" />
     <MESSAGE value="24/02/04" />
     <MESSAGE value="24/02/09" />
@@ -673,7 +760,8 @@
     <MESSAGE value="24/05/12" />
     <MESSAGE value="24/05/13" />
     <MESSAGE value="24/05/18-(14)" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/05/18-(14)" />
+    <MESSAGE value="24/05/19-(3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/05/19-(3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -864,49 +952,9 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/heap/FindKthLargest.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/common/array/QuickSort.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="60" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR059.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
