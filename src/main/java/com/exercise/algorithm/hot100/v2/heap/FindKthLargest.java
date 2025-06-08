@@ -6,8 +6,8 @@ import java.util.Random;
 public class FindKthLargest {
     public static void main(String[] args) {
         FindKthLargest findKthLargest = new FindKthLargest();
-        int[] nums = {3, 2, 1, 5, 6, 4};
-        int k = 2;
+        int[] nums = {3,2,3,1,2,4,5,5,6};
+        int k = 4;
         System.out.println(findKthLargest.findKthLargest(nums, k)); // 5
     }
 
@@ -42,13 +42,15 @@ public class FindKthLargest {
         Random random = new Random();
         int r = random.nextInt(right - left + 1);
         int pivot = left + r;
+        int pVal = nums[pivot];
+        nums[pivot] = nums[start];
+        nums[start] = pVal;
         while (left < right) {
-            while (left < right  && nums[left] >= nums[pivot]) {
-                left++;
-            }
-
-            while (left < right  && nums[right] <= nums[pivot]) {
+            while (left < right  && nums[right] <= pVal) {
                 right--;
+            }
+            while (left < right  && nums[left] >= pVal) {
+                left++;
             }
             if (left < right) {
                 int temp = nums[left];
@@ -57,8 +59,8 @@ public class FindKthLargest {
             }
         }
         int temp = nums[left];
-        nums[left] = nums[pivot];
-        nums[pivot] = temp;
+        nums[left] = pVal;
+        nums[start] = temp;
 
         if (left == k - 1) {
             return nums[left];

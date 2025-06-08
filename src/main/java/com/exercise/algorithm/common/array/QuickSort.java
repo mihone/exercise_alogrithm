@@ -65,7 +65,6 @@ public class QuickSort {
         System.out.println(Arrays.toString(ints));
     }
 
-    //todo
     public static int qs(int[] nums, int start, int end) {
         if (start >= end) {
             return start;
@@ -80,11 +79,11 @@ public class QuickSort {
         nums[left] = pVal;
 
         while (left < right) {
-            while (left < right && nums[left] >= pVal) {
+            while (left <= end && nums[left] >= pVal) {
                 left++;
             }
 
-            while (left < right && nums[right] < pVal) {
+            while (right >= start && nums[right] < pVal) {
                 right--;
             }
             if (left < right) {
@@ -94,8 +93,8 @@ public class QuickSort {
             }
         }
         // 将基准数放到正确的位置
-        int temp = nums[left-1];
-        nums[left-1] = nums[start];
+        int temp = nums[left - 1];
+        nums[left - 1] = nums[start];
         nums[start] = temp;
 
         qs(nums, start, left - 1);
@@ -105,8 +104,58 @@ public class QuickSort {
     }
 
     public static void qsSearch(int[] nums) {
-        qs(nums, 0, nums.length - 1);
+        qs2(nums, 0, nums.length - 1);
 
+    }
+    /*
+    * 快排中为什么一定是右边先开始循环？
+从右边先开始的前提是我们选择序列中最左边的元素最为基准值。
+先从右边开始可以保证i,j相等的时候，arr[i] = arr[j] 小于基准值p。这样交换之后才能保证基准值左右两边分别小于和大于它的值。
+    *
+    * */
+    public static void qs2(int[] nums,int start,int end){
+        // 方法退出条件,指针相遇或低位大于高位指针
+        if (start >= end) {
+            return;
+        }
+        Random random = new Random();
+        int ra = random.nextInt(end - start + 1);
+        int pivot = start + ra;
+        int pVal = nums[pivot];
+        nums[pivot] = nums[start];
+        nums[start] = pVal;
+        // 首先指定基准位和左右指针记录位置
+
+        int l = start;
+        int r = end;
+        int temp = 0;
+        // 左指针小于右指针则进行遍历
+        while (l < r) {
+            // 先进行右边遍历
+            while (l < r && nums[r] <= pVal) {
+                r--;
+            }
+            // 左边遍历
+            while (l < r && nums[l] >= pVal) {
+                l++;
+            }
+            if (l < r) {
+                temp = nums[l];
+                nums[l] = nums[r];
+                nums[r] = temp;
+            }
+        }
+        // 当左右指针相遇，则交换基准位的位置
+        nums[start] = nums[l];
+        nums[l] = pVal;
+        // 再根据条件进行左边递归遍历
+//        if (start < l) {
+            qs2(nums, start, l - 1);
+//        }
+        // 根据条件右边进行递归遍历
+//        if (r < end) {
+            qs2(nums, r + 1, end);
+//        }
     }
 
 
