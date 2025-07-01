@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/备份2.md" afterDir="false" />
+    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="interview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/备份.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/备份.md" afterDir="false" />
     </list>
@@ -49,25 +48,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CanPartition.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindKthLargest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Generate.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Jump.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.exercise_alogrithm [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CanPartition.executor": "Debug",
+    "Application.FindKthLargest.executor": "Debug",
+    "Application.Generate.executor": "Debug",
+    "Application.Jump.executor": "Debug",
+    "Application.QuickSort.executor": "Run",
+    "Maven.exercise_alogrithm [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.CanPartition">
     <configuration name="CanPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.dp.CanPartition" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CanPartition" />
-        <item itemvalue="Application.Generate" />
-        <item itemvalue="Application.Jump" />
-        <item itemvalue="Application.FindKthLargest" />
         <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Jump" />
+        <item itemvalue="Application.Generate" />
+        <item itemvalue="Application.FindKthLargest" />
+        <item itemvalue="Application.CanPartition" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,9 @@
       <option name="presentableId" value="Default" />
       <updated>1750038475189</updated>
       <workItem from="1750038487548" duration="3350000" />
-      <workItem from="1750644651884" duration="3747000" />
+      <workItem from="1750644651884" duration="20780000" />
+      <workItem from="1751247767958" duration="6805000" />
+      <workItem from="1751350625524" duration="3921000" />
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
