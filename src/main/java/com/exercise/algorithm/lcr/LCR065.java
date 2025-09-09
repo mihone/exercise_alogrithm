@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * [REPEAT]
  * LCR 065. 单词的压缩编码
  *
  * @author mihone
