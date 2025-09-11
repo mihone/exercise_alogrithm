@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="">
+    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="25/08/31">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR070.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/备份.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/备份.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +29,13 @@
     &quot;assignee&quot;: &quot;mihone&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="454bb061-bb60-4362-9c66-40d61017f569" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/mihone/exercise_alogrithm.git&quot;,
-    &quot;accountId&quot;: &quot;ac37bb75-735d-4c7f-8501-e6475690d743&quot;
+    &quot;accountId&quot;: &quot;454bb061-bb60-4362-9c66-40d61017f569&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -54,6 +57,7 @@
     &quot;Application.FindKthLargest.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Generate.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Jump.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR064.executor&quot;: &quot;Run&quot;,
     &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
     &quot;Maven.exercise_alogrithm [clean].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -64,24 +68,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CanPartition">
-    <configuration name="CanPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.dp.CanPartition" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.v2.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LCR064">
     <configuration name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.heap.FindKthLargest" />
       <module name="exercise_alogrithm" />
@@ -121,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LCR064" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR064" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.common.array.QuickSort" />
       <module name="exercise_alogrithm" />
@@ -136,19 +140,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCR064" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Jump" />
         <item itemvalue="Application.Generate" />
         <item itemvalue="Application.FindKthLargest" />
-        <item itemvalue="Application.CanPartition" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -180,7 +184,15 @@
       <workItem from="1750644651884" duration="20780000" />
       <workItem from="1751247767958" duration="6805000" />
       <workItem from="1751350625524" duration="3921000" />
+      <workItem from="1751794559967" duration="3051000" />
+      <workItem from="1756529303975" duration="2835000" />
+      <workItem from="1756635584963" duration="2755000" />
       <workItem from="1751854493842" duration="13234000" />
+      <workItem from="1756817545176" duration="1773000" />
+      <workItem from="1756901045425" duration="494000" />
+      <workItem from="1757425349235" duration="1474000" />
+      <workItem from="1757511873659" duration="1272000" />
+      <workItem from="1757595835473" duration="502000" />
     </task>
     <task id="LOCAL-00003" summary="interview-2">
       <option name="closed" value="true" />
@@ -190,7 +202,47 @@
       <option name="project" value="LOCAL" />
       <updated>1751373907305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="interview-2">
+      <option name="closed" value="true" />
+      <created>1751470860602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751470860602</updated>
+    </task>
+    <task id="LOCAL-00005" summary="25/08/31">
+      <option name="closed" value="true" />
+      <created>1756638165703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756638165703</updated>
+    </task>
+    <task id="LOCAL-00006" summary="25/09/02">
+      <option name="closed" value="true" />
+      <created>1756820042408</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756820042408</updated>
+    </task>
+    <task id="LOCAL-00007" summary="25/09/09">
+      <option name="closed" value="true" />
+      <created>1757427408547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757427408547</updated>
+    </task>
+    <task id="LOCAL-00008" summary="25/09/10">
+      <option name="closed" value="true" />
+      <created>1757513150756</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757513150756</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +265,11 @@
     <MESSAGE value="25/06/09-(7)" />
     <MESSAGE value="interview" />
     <MESSAGE value="interview-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="interview-2" />
+    <MESSAGE value="25/09/02" />
+    <MESSAGE value="25/09/09" />
+    <MESSAGE value="25/08/31" />
+    <MESSAGE value="25/09/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/09/10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -257,6 +313,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/hot100/v2/dp/CanPartition.java</url>
           <line>84</line>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR064.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
