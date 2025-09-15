@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="25/08/31">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR070.java" afterDir="false" />
+    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR071.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR072.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR073.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +194,8 @@
       <workItem from="1756901045425" duration="494000" />
       <workItem from="1757425349235" duration="1474000" />
       <workItem from="1757511873659" duration="1272000" />
-      <workItem from="1757595835473" duration="502000" />
+      <workItem from="1757595835473" duration="558000" />
+      <workItem from="1757941795713" duration="2309000" />
     </task>
     <task id="LOCAL-00003" summary="interview-2">
       <option name="closed" value="true" />
@@ -242,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757513150756</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="25/09/11">
+      <option name="closed" value="true" />
+      <created>1757596394212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757596394212</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,9 +278,10 @@
     <MESSAGE value="interview-2" />
     <MESSAGE value="25/09/02" />
     <MESSAGE value="25/09/09" />
-    <MESSAGE value="25/08/31" />
     <MESSAGE value="25/09/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/09/10" />
+    <MESSAGE value="25/08/31" />
+    <MESSAGE value="25/09/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/09/11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
