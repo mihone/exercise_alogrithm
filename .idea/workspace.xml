@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR083.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR084.java" afterDir="false" />
+    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="25/09/27">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR085.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR086.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR087.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR088.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,41 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CanPartition.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindKthLargest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Generate.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Jump.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LCR064.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.exercise_alogrithm [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CanPartition.executor": "Debug",
+    "Application.FindKthLargest.executor": "Debug",
+    "Application.Generate.executor": "Debug",
+    "Application.Jump.executor": "Debug",
+    "Application.LCR064.executor": "Run",
+    "Application.LCR087.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Maven.exercise_alogrithm [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.LCR064">
-    <configuration name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.heap.FindKthLargest" />
-      <module name="exercise_alogrithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.algorithm.hot100.v2.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.LCR087">
     <configuration name="Generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.dp.Generate" />
       <module name="exercise_alogrithm" />
@@ -126,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LCR087" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.lcr.LCR087" />
+      <module name="exercise_alogrithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.algorithm.lcr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.common.array.QuickSort" />
       <module name="exercise_alogrithm" />
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCR087" />
         <item itemvalue="Application.LCR064" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Jump" />
         <item itemvalue="Application.Generate" />
-        <item itemvalue="Application.FindKthLargest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +201,8 @@
       <workItem from="1758029409343" duration="847000" />
       <workItem from="1758117136123" duration="1200000" />
       <workItem from="1758548964518" duration="3250000" />
-      <workItem from="1758632742500" duration="1147000" />
+      <workItem from="1758632742500" duration="1336000" />
+      <workItem from="1758968230361" duration="5106000" />
     </task>
     <task id="LOCAL-00003" summary="interview-2">
       <option name="closed" value="true" />
@@ -288,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758552229950</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="25/09/23">
+      <option name="closed" value="true" />
+      <created>1758633908375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758633908375</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +332,8 @@
     <MESSAGE value="25/09/16" />
     <MESSAGE value="25/09/17" />
     <MESSAGE value="25/09/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/09/22" />
+    <MESSAGE value="25/09/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/09/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -369,6 +382,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR064.java</url>
           <line>46</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR087.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
