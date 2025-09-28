@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="25/09/27">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR085.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR086.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR087.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR088.java" afterDir="false" />
+    <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR089.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,28 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CanPartition.executor": "Debug",
-    "Application.FindKthLargest.executor": "Debug",
-    "Application.Generate.executor": "Debug",
-    "Application.Jump.executor": "Debug",
-    "Application.LCR064.executor": "Run",
-    "Application.LCR087.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Maven.exercise_alogrithm [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CanPartition.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindKthLargest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Generate.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Jump.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR064.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LCR087.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.exercise_alogrithm [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LCR087">
     <configuration name="Generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.dp.Generate" />
@@ -202,7 +199,8 @@
       <workItem from="1758117136123" duration="1200000" />
       <workItem from="1758548964518" duration="3250000" />
       <workItem from="1758632742500" duration="1336000" />
-      <workItem from="1758968230361" duration="5106000" />
+      <workItem from="1758968230361" duration="5261000" />
+      <workItem from="1759062399056" duration="1080000" />
     </task>
     <task id="LOCAL-00003" summary="interview-2">
       <option name="closed" value="true" />
@@ -300,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758633908375</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="25/09/27">
+      <option name="closed" value="true" />
+      <created>1758983312825</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758983312825</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +339,8 @@
     <MESSAGE value="25/09/17" />
     <MESSAGE value="25/09/22" />
     <MESSAGE value="25/09/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/09/23" />
+    <MESSAGE value="25/09/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/09/27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
