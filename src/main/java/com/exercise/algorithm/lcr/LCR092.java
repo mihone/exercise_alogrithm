@@ -1,5 +1,6 @@
 package com.exercise.algorithm.lcr;
 /**
+ * LCR 092. 将字符串翻转到单调递增
  * [REPEAT]
 *  @author mihone
 *  @since 2025/10/2 11:37
@@ -17,7 +18,10 @@ public class LCR092 {
         int dp0 = 0, dp1 = 0;
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
-            int dp0New = dp0, dp1New = Math.min(dp0, dp1);
+            //当下标是0时，只有前一个也是0才符合单调递增
+            int dp0New = dp0;
+            // 当下标识1 时，前一个0或者1 都符合，所以要取一个最小的
+            int dp1New = Math.min(dp0, dp1);
             if (c == '1') {
                 dp0New++;
             } else {
