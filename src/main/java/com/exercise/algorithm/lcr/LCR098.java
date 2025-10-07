@@ -1,5 +1,6 @@
 package com.exercise.algorithm.lcr;
 /**
+ * LCR 098. 不同路径
 *  @author mihone
 *  @since 2025/10/5 10:41
 */
