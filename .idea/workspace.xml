@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5a1c3fa-2b74-48f7-8b1d-44f340c20db4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR099.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/常规问题.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR098.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR098.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/备份.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/备份.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/备份2.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +53,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CanPartition.executor": "Debug",
-    "Application.FindKthLargest.executor": "Debug",
-    "Application.Generate.executor": "Debug",
-    "Application.Jump.executor": "Debug",
-    "Application.LCR064.executor": "Run",
-    "Application.LCR087.executor": "Debug",
-    "Application.QuickSort.executor": "Run",
-    "Maven.exercise_alogrithm [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CanPartition.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindKthLargest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Generate.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Jump.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR064.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LCR087.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LCR100.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.exercise_alogrithm [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github_project/exercise_alogrithm/src/main/java/com/exercise/algorithm/hot100/v2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LCR100">
     <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.algorithm.hot100.v2.greedy.Jump" />
@@ -206,7 +207,8 @@
       <workItem from="1759370947527" duration="7844000" />
       <workItem from="1759391150064" duration="15000" />
       <workItem from="1759541734346" duration="6453000" />
-      <workItem from="1759802966767" duration="1375000" />
+      <workItem from="1759802966767" duration="2195000" />
+      <workItem from="1760002260194" duration="11515000" />
     </task>
     <task id="LOCAL-00003" summary="interview-2">
       <option name="closed" value="true" />
@@ -344,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759633665778</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="25/10/07">
+      <option name="closed" value="true" />
+      <created>1759804566800</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1759804566800</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +392,8 @@
     <MESSAGE value="25/10/02" />
     <MESSAGE value="25/10/04" />
     <MESSAGE value="25/10/05" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/10/05" />
+    <MESSAGE value="25/10/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/10/07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -441,6 +452,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR100.java</url>
           <line>25</line>
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/algorithm/lcr/LCR100.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
