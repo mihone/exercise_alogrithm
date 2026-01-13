@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bfa56aa-abc6-4f46-99c9-8ae6649e4d6b" name="Changes" comment="面试问题反思">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/备份.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/备份.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/备份2(IES).md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/备份2(IES).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/小抄.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/小抄.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/新问题思考.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/新问题思考.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.ThreadTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -61,6 +72,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest" />
+      <module name="exercise_alogrithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,10 +104,18 @@
       <updated>1761531033160</updated>
       <workItem from="1761531037337" duration="7665000" />
       <workItem from="1762134934124" duration="4780000" />
+      <workItem from="1765160121000" duration="5975000" />
+      <workItem from="1765444338629" duration="1067000" />
+      <workItem from="1765516434210" duration="565000" />
+      <workItem from="1765765635388" duration="2133000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="面试问题反思" />
+    <option name="LAST_COMMIT_MESSAGE" value="面试问题反思" />
   </component>
 </project>
